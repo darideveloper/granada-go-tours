@@ -1,0 +1,181 @@
+{
+    "details": {
+        "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente."
+    },
+    "services": [
+        {
+            "id": "alhambra",
+            "h1": "Visita Guiada a la Alhambra: Historia y Significado con un Experto",
+            "focus": "La \"joya de la corona\". Un viaje profundo para entender el complejo musulmán más grande de Europa.",
+            "introduction": "Te presento la joya de la corona. En este viaje al pasado, no solo verás muros; te sumergirás en la Alcazaba, el Generalife y los Palacios Nazaríes para entender el verdadero significado de este complejo monumental.",
+            "discoveries": [
+                {
+                    "title": "Palacios Nazaríes",
+                    "description": "El esplendor del arte y la política nazarí."
+                },
+                {
+                    "title": "La Alcazaba",
+                    "description": "La arquitectura defensiva que protegió un reino."
+                },
+                {
+                    "title": "Generalife",
+                    "description": "El concepto del paraíso y el descanso de los reyes."
+                }
+            ],
+            "options": [
+                {
+                    "title": "Alhambra Completa",
+                    "duration": "3h",
+                    "price": 140,
+                    "description": "Incluye Palacios Nazaríes, Alcazaba y Generalife. (Sin entrada)"
+                },
+                {
+                    "title": "Alhambra Exterior",
+                    "duration": "1.5h",
+                    "price": 100,
+                    "description": "Incluye visita Palacio Carlos V, Museo Alhambra, Mirador del Aljibe, Bosques de la Alhambra, Carmen de los Mártires. (Sin entrada)"
+                },
+                {
+                    "title": "Solo Palacios Nazaríes",
+                    "duration": "1.5h",
+                    "price": 100,
+                    "description": "(Sin entrada)"
+                }
+            ]
+        },
+        {
+            "id": "catedral-capilla-real",
+            "h1": "Tour por la Catedral de Granada y Capilla Real",
+            "focus": "El paso de la Edad Media al Renacimiento y el legado de los Reyes Católicos.",
+            "introduction": "Descubre la obra magna del Renacimiento español y el lugar de descanso de los monarcas más importantes de España. Una parada obligatoria para comprender el cambio de era en Granada.",
+            "discoveries": [
+                {
+                    "title": "Catedral de Granada",
+                    "description": "La imponente fachada de Alonso Cano y el mejor barroco andaluz."
+                },
+                {
+                    "title": "Capilla Real",
+                    "description": "El panteón de los Reyes Católicos y su impresionante legado de gótico isabelino."
+                }
+            ],
+            "options": [
+                {
+                    "title": "Catedral y Capilla Real",
+                    "duration": "2h",
+                    "price": 100,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": "monasterios",
+            "h1": "El Esplendor del Barroco: Monasterio de la Cartuja y San Jerónimo",
+            "focus": "Espiritualidad, arte barroco y la \"Nueva Jerusalén\".",
+            "introduction": "Entiende la importancia de las órdenes religiosas en la construcción de la nueva Granada. Del silencio absoluto de los cartujos a la gloria militar del Gran Capitán.",
+            "discoveries": [
+                {
+                    "title": "La Cartuja",
+                    "description": "La sacristía más bonita del mundo y el Sagrario, cumbre del barroco español."
+                },
+                {
+                    "title": "San Jerónimo",
+                    "description": "El lugar de reposo del Gran Capitán, el genio militar de los Reyes Católicos."
+                }
+            ],
+            "options": [
+                {
+                    "title": "Monasterio La Cartuja y monasterio San Jerónimo",
+                    "duration": "2.5h",
+                    "price": 110,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": "albaicin",
+            "h1": "Paseo por el Albaicín: Historia, Enigmas y Miradores",
+            "focus": "El barrio mítico, sus leyendas y la mejor vista del mundo.",
+            "introduction": "Camina por el barrio con más historia de la ciudad. Un recorrido que combina el rico patrimonio nazarí con los misterios que guardan sus calles estrechas.",
+            "discoveries": [
+                {
+                    "title": "Patrimonio Vivo",
+                    "description": "La evolución de la ciudad desde sus raíces musulmanas."
+                },
+                {
+                    "title": "Misterios y Leyendas",
+                    "description": "Los relatos más enigmáticos que solo un historiador local conoce."
+                },
+                {
+                    "title": "Mirador de San Nicolás",
+                    "description": "El broche de oro con las vistas más bellas de la Alhambra."
+                }
+            ],
+            "options": [
+                {
+                    "title": "Misterios y Leyendas",
+                    "duration": "1.5h",
+                    "price": 90,
+                    "description": ""
+                },
+                {
+                    "title": "Centro y Albaicín",
+                    "duration": "2h",
+                    "price": 100,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": "sacromonte",
+            "h1": "Tour por el Sacromonte: El Barrio con más Duende de Granada",
+            "focus": "El \"duende\", el origen gitano y las vistas desconocidas.",
+            "introduction": "Un viaje al origen. Descubre el barrio de las cuevas, la cuna del flamenco y la imponente Abadía que guarda los secretos de la espiritualidad granadina.",
+            "discoveries": [
+                {
+                    "title": "Viviendas Cueva",
+                    "description": "Conoce cómo viven todavía los locales en este entorno único."
+                },
+                {
+                    "title": "La Abadía del Sacromonte",
+                    "description": "Reliquias, leyendas y una panorámica de la ciudad que pocos turistas conocen."
+                },
+                {
+                    "title": "Cultura Gitana",
+                    "description": "El flamenco como expresión artística profunda y real."
+                }
+            ],
+            "options": [
+                {
+                    "title": "Visita general Sacromonte",
+                    "duration": "Consultar",
+                    "price": "Consultar",
+                    "description": "Basado en tarifa de tiempo/zona."
+                }
+            ]
+        },
+        {
+            "id": "san-juan-de-dios",
+            "h1": "Basílica de San Juan de Dios: El Barroco más Puro",
+            "focus": "Devoción, arte barroco puro y labor social.",
+            "introduction": "Conoce a la figura más querida de la ciudad: el santo de los pobres. Un viaje de espiritualidad y belleza arquitectónica que deja una huella imborrable.",
+            "discoveries": [
+                {
+                    "title": "Arte Barroco",
+                    "description": "Una de las muestras más ricas y brillantes de este estilo en España."
+                },
+                {
+                    "title": "Vida y Obra",
+                    "description": "La historia de San Juan de Dios y la Orden Hospitalaria."
+                }
+            ],
+            "options": [
+                {
+                    "title": "Visita Basílica",
+                    "duration": "Consultar",
+                    "price": "Consultar",
+                    "description": "Según disponibilidad y tiempo."
+                }
+            ]
+        }
+    ]
+}
