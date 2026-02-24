@@ -1,11 +1,11 @@
 import React, { useState, useMemo } from 'react';
-import { Calendar } from '@/components/ui/calendar';
-import { Card, CardContent } from '@/components/ui/card';
+import { Calendar } from '@/components/atoms/ui/calendar';
+import { Card, CardContent } from '@/components/atoms/ui/card';
 import { cn } from "@/lib/utils";
 import { es } from 'date-fns/locale';
 import { STATUS_CONFIG, type StatusKey, type StatusConfigValue } from './types';
-import { StatusLegend } from './StatusLegend';
-import { StatusDetails } from './StatusDetails';
+import { StatusLegend } from '@/components/molecules/StatusLegend';
+import { StatusDetails } from '@/components/molecules/StatusDetails';
 
 /**
  * MOCK DATA

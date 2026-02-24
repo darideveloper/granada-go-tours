@@ -1,7 +1,7 @@
 import React from 'react';
-import { Badge } from '@/components/ui/badge';
+import { Badge } from '@/components/atoms/ui/badge';
 import { cn } from "@/lib/utils";
-import { STATUS_CONFIG, type StatusKey } from './types';
+import { STATUS_CONFIG, type StatusKey } from '@/components/organisms/types';
 
 interface StatusDetailsProps {
   date: Date;

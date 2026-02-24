@@ -1,6 +1,6 @@
 import React from 'react';
 import { cn } from "@/lib/utils";
-import { STATUS_CONFIG } from './types';
+import { STATUS_CONFIG } from '@/components/organisms/types';
 
 export function StatusLegend() {
   const legendItems = (['available', 'limited', 'booked'] as const).map(key => ({
