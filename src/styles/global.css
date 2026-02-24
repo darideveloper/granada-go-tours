@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+/* Brand Fonts */
+@import "@fontsource/playfair-display/400.css";
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/lato/400.css";
+@import "@fontsource/lato/700.css";
+
+@theme {
+  --color-brand-red: #A62C2B;
+  --color-brand-cream: #F9F7F2;
+  --color-brand-charcoal: #2D2D2D;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+}
