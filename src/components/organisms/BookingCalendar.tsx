@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { Calendar } from '@/components/atoms/ui/calendar';
 import { Card, CardContent } from '@/components/atoms/ui/card';
 import { cn } from "@/lib/utils";
@@ -6,6 +6,7 @@ import { es } from 'date-fns/locale';
 import { STATUS_CONFIG, type StatusKey, type StatusConfigValue } from './types';
 import { StatusLegend } from '@/components/molecules/StatusLegend';
 import { StatusDetails } from '@/components/molecules/StatusDetails';
+import { useBookingStore } from '@/store/useBookingStore';
 
 /**
  * MOCK DATA
@@ -27,7 +28,8 @@ const bookingData = {
  * MAIN COMPONENT
  */
 export function BookingCalendar() {
-  const [date, setDate] = useState<Date | undefined>(undefined);
+  const selectedDate = useBookingStore((state) => state.selectedDate);
+  const setSelectedDate = useBookingStore((state) => state.setSelectedDate);
 
   const modifiers = useMemo(() => ({
     booked: bookingData.booked,
@@ -54,7 +56,7 @@ export function BookingCalendar() {
     return 'standard';
   };
 
-  const statusKey = getStatus(date);
+  const statusKey = getStatus(selectedDate);
 
   return (
     <div className="flex flex-col items-center justify-center p-4 bg-muted/30 space-y-6 rounded-3xl border border-border">
@@ -65,8 +67,8 @@ export function BookingCalendar() {
           <div className="p-3 bg-background rounded-xl border border-border shadow-sm">
             <Calendar
               mode="single"
-              selected={date}
-              onSelect={setDate}
+              selected={selectedDate}
+              onSelect={setSelectedDate}
               locale={es}
               className="rounded-md border-none"
               classNames={{
@@ -82,7 +84,7 @@ export function BookingCalendar() {
             />
           </div>
 
-          {date && <StatusDetails date={date} statusKey={statusKey} />}
+          {selectedDate && <StatusDetails date={selectedDate} statusKey={statusKey} />}
         </CardContent>
       </Card>
 
