@@ -37,7 +37,7 @@ A professional website for **Granada Go Tours**, offering high-quality guided to
 
 ## Important Constraints
 - **Ticket Management:** Tours do not include monument tickets; customers must manage their own entries as noted in the tour disclaimers.
-- **Multilingual Support:** Content should support both Spanish and English (as indicated by the `languages` field in the services data).
+- **Language Standard:** Spanish is the primary language for this project. All user-visible text (labels, buttons, statuses, descriptions) MUST be in Spanish by default to ensure consistency for the core target audience in Granada, Spain. English may be supported as a secondary option in the future.
 
 ## External Dependencies
 - **WhatsApp:** Direct link for bookings (`https://wa.me/...`).
