@@ -1,14 +1,14 @@
 ---
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-import { Button } from "@/components/ui/button";
+import { BookingCalendar } from "@/components/BookingCalendar";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<div class="fixed top-4 right-4 z-50">
-		<Button>Shadcn Button</Button>
+	<div class="fixed top-4 right-4 z-50 max-w-sm hidden lg:block">
+		<BookingCalendar client:load />
 	</div>
 </Layout>
