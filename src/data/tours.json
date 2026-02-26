@@ -50,6 +50,16 @@
                 "description": "Jardines y huertas reales: el concepto coránico del paraíso y el lugar de descanso de los reyes."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Cuánto tiempo se dedica a los Palacios Nazaríes?",
+                "answer": "Dedicamos aproximadamente una hora a los Palacios Nazaríes para analizar en profundidad su iconografía y simbolismo, asegurando que comprendas cada detalle de esta joya arquitectónica."
+            },
+            {
+                "question": "¿Es necesario caminar mucho?",
+                "answer": "Sí, el recorrido por la Alhambra es extenso e incluye desniveles. Recomendamos calzado muy cómodo y preparación para una caminata de unas 3 horas."
+            }
+        ],
         "related_tours": [
             "palacios-nazaries",
             "albaicin-misterios",
@@ -102,6 +112,16 @@
             {
                 "title": "Bosques y Carmen de los Mártires",
                 "description": "El pulmón romántico de la Alhambra: jardines decimonónicos y naturaleza histórica."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Realmente vale la pena si no entro a los Palacios?",
+                "answer": "¡Absolutamente! El recinto de la Alhambra es una ciudad palatina enorme. Visitaremos lugares de libre acceso como el Palacio de Carlos V y los bosques, que guardan secretos históricos fascinantes que la mayoría de turistas pasan por alto."
+            },
+            {
+                "question": "¿Puedo comprar las entradas durante el tour?",
+                "answer": "No, las entradas suelen agotarse con semanas de antelación. Este tour está diseñado precisamente para quienes no consiguieron tickets pero quieren conocer la historia del recinto."
             }
         ],
         "related_tours": [
@@ -163,6 +183,16 @@
                 "description": "El reflejo de la Alhambra en el agua y los jardines que conectan los palacios con el Generalife."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Por qué hacer una visita solo de los Palacios?",
+                "answer": "Al centrarnos exclusivamente en los Palacios Nazaríes, podemos detenernos en los detalles caligráficos y arquitectónicos que en una visita general se pasan por alto. Es una inmersión profunda para amantes del arte."
+            },
+            {
+                "question": "¿Qué pasa si quiero ver el Generalife después?",
+                "answer": "El guía te explicará cómo llegar al Generalife al finalizar la visita guiada en los Palacios, para que puedas explorarlo por tu cuenta si tienes la entrada correspondiente."
+            }
+        ],
         "related_tours": [
             "alhambra-completa",
             "alhambra-sin-tickets",
@@ -220,6 +250,16 @@
             {
                 "title": "Capilla Mayor",
                 "description": "El corazón litúrgico de la catedral y su impresionante conjunto de esculturas y pinturas del Siglo de Oro."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Es la Catedral solo un edificio religioso?",
+                "answer": "No, es un manifiesto político y artístico del triunfo cristiano tras la Reconquista. Analizaremos cómo el Renacimiento se usó para transformar la imagen de Granada."
+            },
+            {
+                "question": "¿Cuánto dura la visita interior?",
+                "answer": "Pasaremos aproximadamente una hora y cuarto en el interior, tiempo suficiente para admirar la Capilla Mayor y las naves sin prisas."
             }
         ],
         "related_tours": [
@@ -281,6 +321,16 @@
                 "description": "Una de las rejas más bellas del Renacimiento español, que separa la nave del presbiterio con virtuosismo artesanal."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Se pueden ver de cerca los sepulcros de los Reyes Católicos?",
+                "answer": "Sí, nos situaremos frente a los mausoleos de mármol de Carrara para explicar su rica simbología y el legado dinástico que representan."
+            },
+            {
+                "question": "¿Qué importancia tiene la colección de pintura flamenca?",
+                "answer": "Es una de las colecciones personales más importantes de Europa. Veremos obras de gran valor que Isabel la Católica atesoró y que explican su gusto artístico personal."
+            }
+        ],
         "related_tours": [
             "catedral-granada",
             "centro-ciudad",
@@ -338,6 +388,16 @@
             {
                 "title": "Claustros",
                 "description": "Los dos claustros del monasterio: espacios de silencio y contemplación que narran la vida de la orden jerónima."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Quién fue el Gran Capitán y por qué está enterrado aquí?",
+                "answer": "Gonzalo Fernández de Córdoba fue el genio militar de los Reyes Católicos. Explicaremos su importancia histórica mientras visitamos su impresionante mausoleo."
+            },
+            {
+                "question": "¿Qué veremos en los claustros?",
+                "answer": "Visitaremos sus dos claustros renacentistas, espacios de gran paz que nos permiten entender cómo era la vida contemplativa de los monjes jerónimos."
             }
         ],
         "related_tours": [
@@ -399,6 +459,16 @@
                 "description": "La peculiar regla de vida de los monjes cartujos: silencio, soledad and contemplación como camino hacia Dios."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Por qué se dice que su sacristía es la más bella del mundo?",
+                "answer": "Debido a su asombrosa decoración barroca en estuco, mármol y maderas preciosas. Es una explosión visual que busca representar la gloria divina de forma abrumadora."
+            },
+            {
+                "question": "¿Cómo era la vida de un monje cartujo?",
+                "answer": "Durante el tour explicaremos la regla del silencio y la soledad absoluta que seguían, lo cual contrasta fuertemente con la riqueza ornamental del edificio."
+            }
+        ],
         "related_tours": [
             "monasterio-san-jeronimo",
             "basilica-san-juan-de-dios",
@@ -456,6 +526,16 @@
             {
                 "title": "Devoción Popular",
                 "description": "La historia de su beatificación and el fervor que sigue despertando entre los granadinos generación tras generación."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Es una ruta apta para personas con movilidad reducida?",
+                "answer": "Sí, el recorrido por los lugares vinculados a Fray Leopoldo es mayoritariamente llano y accesible por las calles del centro de Granada."
+            },
+            {
+                "question": "¿Se visita la cripta donde reposan sus restos?",
+                "answer": "Sí, la visita incluye el paso por la cripta en la Iglesia de los Capuchinos, donde podrás ser testigo de la profunda devoción popular que aún hoy despierta."
             }
         ],
         "related_tours": [
@@ -517,6 +597,16 @@
                 "description": "El papel de la nobleza castellana en la transformación de Granada tras la conquista de 1492."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Este tour es muy técnico sobre historia militar?",
+                "answer": "No, aunque hablamos de sus hazañas, nos centramos en su figura humana y su impacto en la transformación de la Granada musulmana a la cristiana."
+            },
+            {
+                "question": "¿Qué relación tiene con el Monasterio de San Jerónimo?",
+                "answer": "El monasterio fue elegido por él y su esposa como lugar de descanso eterno, y es el eje central para entender su legado en la ciudad."
+            }
+        ],
         "related_tours": [
             "monasterio-san-jeronimo",
             "capilla-real",
@@ -576,6 +666,16 @@
                 "description": "Cómo una pequeña iniciativa personal se convirtió en una de las órdenes religiosas más importantes del mundo."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Visitaremos el hospital que él fundó?",
+                "answer": "Sí, conoceremos la historia del antiguo hospital y cómo Juan de Dios revolucionó el concepto de cuidado a los enfermos en el siglo XVI."
+            },
+            {
+                "question": "¿Es una ruta muy larga?",
+                "answer": "Tiene una duración de unas 2 horas a un ritmo pausado, recorriendo los lugares clave de su vida en el centro histórico."
+            }
+        ],
         "related_tours": [
             "basilica-san-juan-de-dios",
             "ruta-fray-leopoldo",
@@ -631,6 +731,16 @@
                 "description": "La estancia más sagrada and lujosa del templo, donde se veneran current reliquias de San Juan de Dios."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Por qué hay tantos espejos en el interior?",
+                "answer": "Los espejos, junto con el oro, se usaban en el barroco para multiplicar la luz y crear una atmósfera que recordara al cielo, buscando impresionar al fiel."
+            },
+            {
+                "question": "¿Podemos subir al camarín del Santo?",
+                "answer": "Dependiendo de la disponibilidad del monumento el día de la visita, intentaremos acceder a este espacio sagrado para ver de cerca las reliquias."
+            }
+        ],
         "related_tours": [
             "ruta-san-juan-de-dios",
             "monasterio-cartuja",
@@ -683,6 +793,16 @@
             {
                 "title": "Mirador de San Nicolás",
                 "description": "La vista panorámica más famosa del mundo: the Alhambra and Sierra Nevada frente a ti al atardecer."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Se cuentan historias de fantasmas?",
+                "answer": "Más que fantasmas, nos centramos en enigmas históricos y leyendas populares que han pasado de generación en generación en el barrio más antiguo de Granada."
+            },
+            {
+                "question": "¿El tour termina en el Mirador de San Nicolás?",
+                "answer": "Sí, finalizamos allí para que puedas disfrutar de la puesta de sol sobre la Alhambra, una de las vistas más famosas del mundo."
             }
         ],
         "related_tours": [
@@ -744,6 +864,16 @@
                 "description": "El flamenco como expresión de dolor and alegría: historia de the Zambra granadina and una identidad transformada en arte."
             }
         ],
+        "faqs": [
+            {
+                "question": "¿Entraremos en las cuevas originales?",
+                "answer": "Visitaremos las Santas Cuevas de la Abadía, donde se originó la leyenda de los Libros Plúmbeos y el origen del cristianismo en Granada."
+            },
+            {
+                "question": "¿Hay que subir muchas cuestas?",
+                "answer": "El barrio del Sacromonte tiene pendientes pronunciadas. El tour requiere cierta forma física o el uso del autobús urbano para algunos tramos si se prefiere."
+            }
+        ],
         "related_tours": [
             "albaicin-misterios",
             "centro-ciudad",
@@ -797,6 +927,16 @@
             {
                 "title": "Madraza and Corral del Carbón",
                 "description": "The primera universidad andalusí and el único caravansar nazarí conservado en España."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Veremos la Alcaicería (el antiguo mercado de seda)?",
+                "answer": "Sí, pasearemos por sus estrechas calles para entender cómo funcionaba el comercio en la época nazarí y cómo ha evolucionado hasta hoy."
+            },
+            {
+                "question": "¿Es una buena opción para un primer día en Granada?",
+                "answer": "Es la opción ideal, ya que ofrece una visión general de la historia de la ciudad, desde sus raíces árabes hasta su esplendor renacentista."
             }
         ],
         "related_tours": [
