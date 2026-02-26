@@ -39,3 +39,11 @@ The booking interface MUST adapt its layout based on the screen size.
 - **Given** a screen width less than 1024px
 - **Then** the booking form MUST be displayed stacked with the booking calendar.
 
+### Requirement: Form Initialization
+The booking form MUST support initialization of its state via component properties.
+
+#### Scenario: Initialize Tour ID
+- **Given** the `BookingForm` is rendered with `initialTourId="alhambra-completa"`
+- **When** the component mounts
+- **Then** the `formData.tourId` in the Zustand store MUST be set to "alhambra-completa".
+

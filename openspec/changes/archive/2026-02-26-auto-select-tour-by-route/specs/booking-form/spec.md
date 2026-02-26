@@ -1,6 +1,6 @@
 # Booking Form Specification
 
-## MODIFIED Requirements
+## ADDED Requirements
 
 ### Requirement: Form Initialization
 The booking form MUST support initialization of its state via component properties.
