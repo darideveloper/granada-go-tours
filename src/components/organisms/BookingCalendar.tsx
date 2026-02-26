@@ -9,33 +9,18 @@ import { StatusDetails } from '@/components/molecules/StatusDetails';
 import { useBookingStore } from '@/store/useBookingStore';
 
 /**
- * MOCK DATA
- */
-const today = new Date();
-const getRelativeDate = (days: number) => {
-  const d = new Date();
-  d.setDate(today.getDate() + days);
-  return d;
-};
-
-const bookingData = {
-  booked: [today, getRelativeDate(1), getRelativeDate(5), getRelativeDate(12)],
-  limited: [getRelativeDate(2), getRelativeDate(8), getRelativeDate(9)],
-  available: [getRelativeDate(3), getRelativeDate(4), getRelativeDate(10)],
-};
-
-/**
  * MAIN COMPONENT
  */
 export function BookingCalendar() {
   const selectedDate = useBookingStore((state) => state.selectedDate);
   const setSelectedDate = useBookingStore((state) => state.setSelectedDate);
+  const availability = useBookingStore((state) => state.availability);
 
   const modifiers = useMemo(() => ({
-    booked: bookingData.booked,
-    limited: bookingData.limited,
-    available: bookingData.available,
-  }), []);
+    booked: availability.booked,
+    limited: availability.limited,
+    available: availability.available,
+  }), [availability]);
 
   const modifiersClassNames = useMemo(() => {
     const classNames: Record<string, string> = {};
@@ -50,9 +35,9 @@ export function BookingCalendar() {
   const getStatus = (d: Date | undefined): StatusKey => {
     if (!d) return 'standard';
     const dateStr = d.toDateString();
-    if (bookingData.booked.some(date => date.toDateString() === dateStr)) return 'booked';
-    if (bookingData.limited.some(date => date.toDateString() === dateStr)) return 'limited';
-    if (bookingData.available.some(date => date.toDateString() === dateStr)) return 'available';
+    if (availability.booked.some(date => date.toDateString() === dateStr)) return 'booked';
+    if (availability.limited.some(date => date.toDateString() === dateStr)) return 'limited';
+    if (availability.available.some(date => date.toDateString() === dateStr)) return 'available';
     return 'standard';
   };
 
@@ -80,7 +65,7 @@ export function BookingCalendar() {
               }}
               modifiers={modifiers}
               modifiersClassNames={modifiersClassNames}
-              disabled={bookingData.booked}
+              disabled={availability.booked}
             />
           </div>
 

@@ -66,7 +66,12 @@
             "sacromonte"
         ],
         "duration": "3h",
-        "price": 140
+        "price": 140,
+        "dates": {
+            "available": ["2026-02-27", "2026-03-05", "2026-03-15"],
+            "limited": ["2026-02-28", "2026-03-10"],
+            "booked": ["2026-03-01", "2026-03-12", "2026-03-20"]
+        }
     },
     {
         "id": "alhambra-sin-tickets",
@@ -130,7 +135,12 @@
             "albaicin-misterios"
         ],
         "duration": "2h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-02", "2026-03-09", "2026-03-16"],
+            "limited": ["2026-03-03", "2026-03-10"],
+            "booked": ["2026-03-04", "2026-03-11", "2026-03-18"]
+        }
     },
     {
         "id": "palacios-nazaries",
@@ -199,7 +209,12 @@
             "albaicin-misterios"
         ],
         "duration": "1.5h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-08", "2026-03-15"],
+            "limited": ["2026-03-02", "2026-03-09"],
+            "booked": ["2026-03-03", "2026-03-10"]
+        }
     },
     {
         "id": "catedral-granada",
@@ -268,7 +283,12 @@
             "monasterio-cartuja"
         ],
         "duration": "1.5h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-08", "2026-03-15"],
+            "limited": ["2026-03-02", "2026-03-09"],
+            "booked": ["2026-03-03", "2026-03-10"]
+        }
     },
     {
         "id": "capilla-real",
@@ -337,7 +357,12 @@
             "ruta-gran-capitan"
         ],
         "duration": "1.5h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-08", "2026-03-15"],
+            "limited": ["2026-03-02", "2026-03-09"],
+            "booked": ["2026-03-03", "2026-03-10"]
+        }
     },
     {
         "id": "monasterio-san-jeronimo",
@@ -406,7 +431,12 @@
             "capilla-real"
         ],
         "duration": "1.5h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-08", "2026-03-15"],
+            "limited": ["2026-03-02", "2026-03-09"],
+            "booked": ["2026-03-03", "2026-03-10"]
+        }
     },
     {
         "id": "monasterio-cartuja",
@@ -475,7 +505,12 @@
             "ruta-fray-leopoldo"
         ],
         "duration": "1.5h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-08", "2026-03-15"],
+            "limited": ["2026-03-02", "2026-03-09"],
+            "booked": ["2026-03-03", "2026-03-10"]
+        }
     },
     {
         "id": "ruta-fray-leopoldo",
@@ -544,7 +579,12 @@
             "monasterio-cartuja"
         ],
         "duration": "1.5h",
-        "price": 100
+        "price": 100,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-08", "2026-03-15"],
+            "limited": ["2026-03-02", "2026-03-09"],
+            "booked": ["2026-03-03", "2026-03-10"]
+        }
     },
     {
         "id": "ruta-gran-capitan",
@@ -613,7 +653,12 @@
             "catedral-granada"
         ],
         "duration": "2h",
-        "price": 110
+        "price": 110,
+        "dates": {
+            "available": ["2026-03-04", "2026-03-11", "2026-03-18"],
+            "limited": ["2026-03-05", "2026-03-12"],
+            "booked": ["2026-03-06", "2026-03-13"]
+        }
     },
     {
         "id": "ruta-san-juan-de-dios",
@@ -682,7 +727,12 @@
             "monasterio-cartuja"
         ],
         "duration": "2h",
-        "price": 110
+        "price": 110,
+        "dates": {
+            "available": ["2026-03-04", "2026-03-11", "2026-03-18"],
+            "limited": ["2026-03-05", "2026-03-12"],
+            "booked": ["2026-03-06", "2026-03-13"]
+        }
     },
     {
         "id": "basilica-san-juan-de-dios",
@@ -747,7 +797,12 @@
             "ruta-fray-leopoldo"
         ],
         "duration": "1.5h",
-        "price": 110
+        "price": 110,
+        "dates": {
+            "available": ["2026-03-04", "2026-03-11", "2026-03-18"],
+            "limited": ["2026-03-05", "2026-03-12"],
+            "booked": ["2026-03-06", "2026-03-13"]
+        }
     },
     {
         "id": "albaicin-misterios",
@@ -811,7 +866,12 @@
             "centro-ciudad"
         ],
         "duration": "2h",
-        "price": 110
+        "price": 110,
+        "dates": {
+            "available": ["2026-03-04", "2026-03-11", "2026-03-18"],
+            "limited": ["2026-03-05", "2026-03-12"],
+            "booked": ["2026-03-06", "2026-03-13"]
+        }
     },
     {
         "id": "sacromonte",
@@ -880,7 +940,12 @@
             "alhambra-completa"
         ],
         "duration": "2h",
-        "price": 110
+        "price": 110,
+        "dates": {
+            "available": ["2026-03-04", "2026-03-11", "2026-03-18"],
+            "limited": ["2026-03-05", "2026-03-12"],
+            "booked": ["2026-03-06", "2026-03-13"]
+        }
     },
     {
         "id": "centro-ciudad",
@@ -945,6 +1010,11 @@
             "albaicin-misterios"
         ],
         "duration": "2h",
-        "price": 110
+        "price": 110,
+        "dates": {
+            "available": ["2026-03-01", "2026-03-05", "2026-03-10"],
+            "limited": ["2026-03-02", "2026-03-06"],
+            "booked": ["2026-03-03", "2026-03-07"]
+        }
     }
 ]
