@@ -59,9 +59,9 @@ export function BookingCalendar() {
   const statusKey = getStatus(selectedDate);
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 bg-muted/30 space-y-6 rounded-3xl border border-border">
-      <Card className="w-full max-w-md shadow-xl border-none bg-background">
-        <CardContent className="flex flex-col items-center gap-6 pt-6">
+    <div className="flex flex-col items-center justify-center p-4 bg-muted/30 space-y-6 rounded-3xl border border-border h-full">
+      <Card className="w-full max-w-md shadow-xl border-none bg-background flex-1">
+        <CardContent className="flex flex-col items-center gap-6 pt-6 h-full justify-center">
           <StatusLegend />
 
           <div className="p-3 bg-background rounded-xl border border-border shadow-sm">

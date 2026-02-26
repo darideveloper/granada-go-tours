@@ -1,12 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { BookingCalendar } from "@/components/organisms/BookingCalendar";
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+import { BookingWidget } from "@/components/organisms/BookingWidget";
 ---
 
 <Layout>
-	<div class="z-50 w-full max-w-md mx-auto p-4 lg:p-0 lg:fixed lg:top-4 lg:right-4 lg:max-w-sm">
-		<BookingCalendar client:load />
-	</div>
+    <main class="min-h-screen bg-brand-cream/20 py-12 px-4 flex items-center justify-center">
+        <BookingWidget client:load />
+    </main>
 </Layout>
