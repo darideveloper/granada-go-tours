@@ -3,26 +3,14 @@ import { useBookingStore } from "../../store/useBookingStore"
 import { Input } from "@/components/atoms/ui/input"
 import { Label } from "@/components/atoms/ui/label"
 import { Textarea } from "@/components/atoms/ui/textarea"
-import { Select } from "@/components/atoms/ui/select"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/atoms/ui/card"
 import { Button } from "@/components/atoms/ui/button"
-import toursData from "@/data/tours.json"
 
-interface BookingFormProps {
-  initialTourId?: string
-}
-
-export function BookingForm({ initialTourId }: BookingFormProps) {
+export function BookingForm() {
   const { formData, updateFormData, prevStep } = useBookingStore() as any
 
-  React.useEffect(() => {
-    if (initialTourId) {
-      updateFormData({ tourId: initialTourId })
-    }
-  }, [initialTourId, updateFormData])
-
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target
     let processedValue: string | number = value
@@ -81,40 +69,19 @@ export function BookingForm({ initialTourId }: BookingFormProps) {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="md:col-span-2 grid gap-1.5">
-                <Label htmlFor="tourId" className="text-xs">Tour</Label>
-                <Select
-                  id="tourId"
-                  name="tourId"
-                  value={formData.tourId || ""}
-                  onChange={handleChange}
-                  className="h-9 text-sm"
-                  required
-                >
-                  <option value="" disabled>Selecciona un tour</option>
-                  {toursData.map((tour: any) => (
-                    <option key={tour.id} value={tour.id}>
-                      {tour.title}
-                    </option>
-                  ))}
-                </Select>
-              </div>
-
-              <div className="grid gap-1.5">
-                <Label htmlFor="guests" className="text-xs">Personas</Label>
-                <Input
-                  id="guests"
-                  name="guests"
-                  type="number"
-                  min="1"
-                  max="30"
-                  value={formData.guests}
-                  onChange={handleChange}
-                  className="h-9 text-sm"
-                  required
-                />
-              </div>
+            <div className="grid gap-1.5 w-full md:w-1/2">
+              <Label htmlFor="guests" className="text-xs">Personas</Label>
+              <Input
+                id="guests"
+                name="guests"
+                type="number"
+                min="1"
+                max="30"
+                value={formData.guests}
+                onChange={handleChange}
+                className="h-9 text-sm"
+                required
+              />
             </div>
 
             <div className="grid gap-1.5">

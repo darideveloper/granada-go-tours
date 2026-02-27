@@ -20,10 +20,15 @@ The component SHALL allow users to select a single date and display its detailed
 - Then the status display area MUST update to show "Available" and include the correct icon (CheckCircle2).
 
 ### Requirement: Data Structure Compatibility
-The component SHALL consume a standardized availability data structure.
+The component SHALL consume a standardized availability data structure that aligns with the backend/JSON schema.
 
 #### Scenario: Mock Data Integration
-- Given the component uses a `bookingData` structure with `fullyBooked`, `limitedAvailability`, and `available` arrays of `Date` objects.
-- When the component is initialized.
-- Then all specified dates MUST be correctly mapped to their respective modifiers.
+- **GIVEN** a `bookingData` structure (e.g. from `useBookingStore`)
+- **WHEN** it contains `booked`, `limited`, and `available` arrays of `Date` objects
+- **THEN** all specified dates MUST be correctly mapped to their respective modifiers in the calendar component.
+
+#### Scenario: Status Keys Consistency
+- **GIVEN** the `STATUS_CONFIG` object
+- **WHEN** statuses are assigned
+- **THEN** the keys MUST be `available`, `limited`, `booked`, and `standard`.
 

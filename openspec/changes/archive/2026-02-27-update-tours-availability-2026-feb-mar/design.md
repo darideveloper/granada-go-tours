@@ -8,10 +8,10 @@ The high-level table provided by the user will be mapped to the `dates` object w
 
 - **March 2026:**
   - **Standard Mon-Fri:** 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 23, 24, 25, 26, 27.
-  - **Weekends:** 7, 8, 14, 15, 21, 22, 28.
-  - **Semana Santa (Mar):** 29, 30, 31.
+  - **Weekends:** 1, 7, 8, 14, 15, 21, 22, 28. (Note: March 1st is a Sunday)
+  - **Semana Santa (Mar):** 29 (Palm Sunday), 30, 31.
 - **April 2026:**
-  - **Easter Week (Semana Santa):** 1, 2, 3, 4, 5.
+  - **Easter Week (Semana Santa):** 1, 2, 3, 4, 5 (Easter Sunday).
   - **Weekends:** 11, 12, 18, 19, 25, 26.
   - **Standard Mon-Fri (Rest):** 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 27, 28, 29, 30.
 
@@ -19,11 +19,13 @@ The high-level table provided by the user will be mapped to the `dates` object w
 
 - `Available` status will be mapped to the `available` array.
 - `Limited` status will be mapped to the `limited` array.
-- A small selection of dates during high-demand periods (e.g., Maundy Thursday Apr 2nd and Good Friday Apr 3rd) will be marked as `booked` for most tours to provide realism.
+- For "Available" Mon-Fri, all dates in that range will be added to `available`.
+- For "Limited" Weekends, the specific weekend dates (7-8, 14-15, 21-22) will be added to `limited`.
+- For "Limited" Semana Santa, the specific dates (Mar 29-31, Apr 1-5) will be added to `limited`.
 
-### Tour-Specific Mapping Table
+### Tour-Specific Mapping Table (Detailed)
 
-| Tour ID | Mar Mon-Fri | Mar Weekends | Mar SS | Apr Easter | Apr Weekends | Apr Mon-Fri |
+| Tour ID | Mar Mon-Fri | Mar Wknds | Mar SS | Apr Easter | Apr Wknds | Apr Mon-Fri |
 | --- | --- | --- | --- | --- | --- | --- |
 | alhambra-completa | Avail | Limited | Limited | Limited | Limited | Avail |
 | alhambra-sin-tickets | Avail | Avail | Limited | Limited | Avail | Avail |
