@@ -2,9 +2,7 @@
 
 ## Purpose
 This spec defines the requirements for managing application state (such as booking details and user selections) using a centralized store, ensuring data consistency and reactivity across the entire user interface.
-
 ## Requirements
-
 ### Requirement: Centralized Booking State
 The application SHALL manage booking-related data (e.g., selected date, user details) in a centralized store to ensure state consistency across components.
 
@@ -20,3 +18,13 @@ UI components SHALL automatically react to changes in the centralized booking st
 - **GIVEN** the `BookingCalendar` is rendered.
 - **WHEN** the `selectedDate` in the store is changed (either by the calendar or externally).
 - **THEN** the calendar's selection and the status display MUST update to show the new date.
+
+### Requirement: Virtual Availability Injection
+The state management system SHALL dynamically supplement tour availability data with a "Virtual Limited" window during initialization.
+
+#### Scenario: Inject Virtual Limited Dates
+- **GIVEN** a tour is selected.
+- **WHEN** availability is loaded from the data source.
+- **THEN** the `availability.limited` state MUST be merged with the next 10 days relative to the current time.
+- **AND** dates already present in `availability.booked` MUST NOT be overwritten by the limited status.
+

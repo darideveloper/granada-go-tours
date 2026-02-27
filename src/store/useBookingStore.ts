@@ -25,6 +25,27 @@ interface BookingState {
   resetBooking: () => void;
 }
 
+const injectVirtualLimitedDates = (limited: Date[], booked: Date[]): Date[] => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  
+  const virtualLimited: Date[] = [...limited];
+  const bookedStrings = new Set(booked.map(d => d.toDateString()));
+  const limitedStrings = new Set(limited.map(d => d.toDateString()));
+
+  for (let i = 1; i <= 10; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() + i);
+    const dateStr = d.toDateString();
+    
+    if (!bookedStrings.has(dateStr) && !limitedStrings.has(dateStr)) {
+      virtualLimited.push(d);
+    }
+  }
+  
+  return virtualLimited;
+};
+
 const getInitialAvailability = (tourId: string | null): Availability => {
   const tour = toursData.find(t => t.id === tourId);
   if (!tour || !tour.dates) {
@@ -36,9 +57,12 @@ const getInitialAvailability = (tourId: string | null): Availability => {
     return new Date(year, month - 1, day);
   };
 
+  const limited = (tour.dates.limited || []).map(parseDate);
+  const booked = (tour.dates.booked || []).map(parseDate);
+
   return {
-    limited: (tour.dates.limited || []).map(parseDate),
-    booked: (tour.dates.booked || []).map(parseDate),
+    limited: injectVirtualLimitedDates(limited, booked),
+    booked: booked,
   };
 };
 
