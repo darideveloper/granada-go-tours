@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import BookingFlow from "../components/organisms/BookingFlow";
+import BookingPage from "../components/pages/index.astro";
 import toursData from "../data/tours.json";
 
 export async function getStaticPaths() {
@@ -14,7 +14,5 @@ const { id } = Astro.params;
 ---
 
 <Layout>
-    <main class="min-h-screen py-12 py-4 flex items-center justify-center">
-        <BookingFlow client:load initialTourId={id} />
-    </main>
+    <BookingPage initialTourId={id} />
 </Layout>
