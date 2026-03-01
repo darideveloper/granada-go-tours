@@ -1,10 +1,8 @@
 [
   {
     "id": "alhambra-completa",
-    "slug": "visita-guiada-alhambra-completa",
     "meta_title": "Alhambra Completa Granada | Nazaríes, Alcazaba y Generalife",
     "meta_description": "Visita completa a la Alhambra con guía oficial historiador: Palacios Nazaríes, Alcazaba y Generalife. La experiencia más profunda del monumento musulmán más grande de Europa.",
-    "category": "Monumental",
     "meeting_point": "Plaza del Generalife, frente a taquillas de la Alhambra",
     "languages": [
       "Español 🇪🇸",
@@ -21,16 +19,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=alhambra-completa",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/mHMpQ72Bm4nWdTRBA",
     "title": "Alhambra Completa",
     "subtitle": "La Joya de la Corona Nazarí al Completo",
@@ -60,11 +49,6 @@
         "answer": "Sí, el recorrido por la Alhambra es extenso e incluye desniveles. Recomendamos calzado muy cómodo y preparación para una caminata de unas 3 horas."
       }
     ],
-    "related_tours": [
-      "palacios-nazaries",
-      "albaicin-misterios",
-      "sacromonte"
-    ],
     "duration": "3h",
     "price": 140,
     "dates": {
@@ -91,10 +75,8 @@
   },
   {
     "id": "alhambra-sin-tickets",
-    "slug": "alhambra-sin-tickets-acceso-libre",
     "meta_title": "Alhambra sin Entradas Granada | Palacio Carlos V y Bosques",
     "meta_description": "¿Sin entradas para la Alhambra? Descubre el Palacio de Carlos V, el mirador del Aljibe y los bosques con un guía experto. Acceso libre, experiencia única.",
-    "category": "Monumental",
     "meeting_point": "Puerta de las Granadas (inicio del bosque de la Alhambra)",
     "languages": [
       "Español 🇪🇸",
@@ -111,11 +93,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "booking_url": "/contacto?tour=alhambra-sin-tickets",
     "disclaimer": "Nota: Este tour recorre únicamente las zonas de acceso libre del recinto. No incluye entradas a los monumentos interiores.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/2FpwmWpgfNpo3h7q6",
     "title": "Alhambra sin Tickets",
     "subtitle": "La Alhambra que Nadie te Cuenta, Sin Necesidad de Entradas",
@@ -145,11 +123,6 @@
         "answer": "No, las entradas suelen agotarse con semanas de antelación. Este tour está diseñado precisamente para quienes no consiguieron tickets pero quieren conocer la historia del recinto."
       }
     ],
-    "related_tours": [
-      "alhambra-completa",
-      "palacios-nazaries",
-      "albaicin-misterios"
-    ],
     "duration": "2h",
     "price": 100,
     "dates": {
@@ -176,10 +149,8 @@
   },
   {
     "id": "palacios-nazaries",
-    "slug": "visita-palacios-nazaries-granada",
     "meta_title": "Visita Palacios Nazaríes Granada | Comares y Patio de los Leones",
     "meta_description": "Adéntrate en la residencia de los emires nazaríes. El Palacio de Comares y el Patio de los Leones explicados en profundidad por un guía historiador.",
-    "category": "Monumental",
     "meeting_point": "Puerta del Vino (dentro del complejo monumental de la Alhambra)",
     "languages": [
       "Español 🇪🇸",
@@ -196,16 +167,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=palacios-nazaries",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/2FpwmWpgfNpo3h7q6",
     "title": "Palacios Nazaríes",
     "subtitle": "El Corazón Artístico de la Alhambra",
@@ -235,11 +197,6 @@
         "answer": "El guía te explicará cómo llegar al Generalife al finalizar la visita guiada en los Palacios, para que puedas explorarlo por tu cuenta si tienes la entrada correspondiente."
       }
     ],
-    "related_tours": [
-      "alhambra-completa",
-      "alhambra-sin-tickets",
-      "albaicin-misterios"
-    ],
     "duration": "1.5h",
     "price": 100,
     "dates": {
@@ -266,10 +223,8 @@
   },
   {
     "id": "catedral-granada",
-    "slug": "visita-guiada-catedral-granada",
     "meta_title": "Visita Guiada Catedral de Granada | Primera del Renacimiento Español",
     "meta_description": "Descubre la Catedral de Granada, obra magna del Renacimiento español diseñada por Alonso Cano. Una visita en profundidad con guía historiador.",
-    "category": "Monumental",
     "meeting_point": "Plaza de las Pasiegas (frente a la fachada principal de la Catedral)",
     "languages": [
       "Español 🇪🇸",
@@ -286,16 +241,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=catedral-granada",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/Bu2vvMa1aPMX2dWm6",
     "title": "Catedral de Granada",
     "subtitle": "La Obra Magna del Renacimiento Español",
@@ -325,11 +271,6 @@
         "answer": "Pasaremos aproximadamente una hora y cuarto en el interior, tiempo suficiente para admirar la Capilla Mayor y las naves sin prisas."
       }
     ],
-    "related_tours": [
-      "capilla-real",
-      "centro-ciudad",
-      "monasterio-cartuja"
-    ],
     "duration": "1.5h",
     "price": 100,
     "dates": {
@@ -356,10 +297,8 @@
   },
   {
     "id": "capilla-real",
-    "slug": "visita-guiada-capilla-real-granada",
     "meta_title": "Visita Guiada Capilla Real Granada | Mausoleo Reyes Católicos",
     "meta_description": "Visita la Capilla Real de Granada, panteón de los Reyes Católicos. Una joya del gótico isabelino con la impresionante colección de pintura flamenca de Isabel la Católica.",
-    "category": "Monumental",
     "meeting_point": "Calle Oficios, frente a la entrada al monumento",
     "languages": [
       "Español 🇪🇸",
@@ -376,16 +315,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=capilla-real",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/NpHwW8HniWgVs5Fe7",
     "title": "Capilla Real",
     "subtitle": "El Legado Eternos de los Reyes Católicos",
@@ -415,11 +345,6 @@
         "answer": "Es una de las colecciones personales más importantes de Europa. Veremos obras de gran valor que Isabel la Católica atesoró y que explican su gusto artístico personal."
       }
     ],
-    "related_tours": [
-      "catedral-granada",
-      "centro-ciudad",
-      "ruta-gran-capitan"
-    ],
     "duration": "1.5h",
     "price": 100,
     "dates": {
@@ -446,10 +371,8 @@
   },
   {
     "id": "monasterio-san-jeronimo",
-    "slug": "visita-monasterio-san-jeronimo-granada",
     "meta_title": "Visita Monasterio San Jerónimo Granada | Mausoleo Gran Capitán",
     "meta_description": "Descubre el Monasterio de San Jerónimo, lugar de reposo del Gran Capitán. Obra cumbre del barroco español y símbolo del poder militar de los Reyes Católicos.",
-    "category": "Religioso",
     "meeting_point": "Frente a la Iglesia de San Jerónimo",
     "languages": [
       "Español 🇪🇸",
@@ -466,16 +389,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=monasterio-san-jeronimo",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/dRY7TKzCLEpgbmpp7",
     "title": "Monasterio de San Jerónimo",
     "subtitle": "Gloria Militar y Espiritualidad en el Renacimiento Granadino",
@@ -505,11 +419,6 @@
         "answer": "Visitaremos sus dos claustros renacentistas, espacios de gran paz que nos permiten entender cómo era la vida contemplativa de los monjes jerónimos."
       }
     ],
-    "related_tours": [
-      "monasterio-cartuja",
-      "ruta-gran-capitan",
-      "capilla-real"
-    ],
     "duration": "1.5h",
     "price": 100,
     "dates": {
@@ -536,10 +445,8 @@
   },
   {
     "id": "monasterio-cartuja",
-    "slug": "visita-monasterio-cartuja-granada",
     "meta_title": "Visita Monasterio de La Cartuja Granada | Sacristía más Bella del Mundo",
     "meta_description": "Descubre el Monasterio de La Cartuja en Granada: el barroco en su máxima expresión. La sacristía más bella del mundo y la orden del silencio explicados por un experto.",
-    "category": "Religioso",
     "meeting_point": "Entrada al Monasterio de La Cartuja",
     "languages": [
       "Español 🇪🇸",
@@ -556,16 +463,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=monasterio-cartuja",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/hZ2LZdXSPQ8anbTNA",
     "title": "Monasterio de La Cartuja",
     "subtitle": "La Orden del Silencio y el Barroco Más Puro",
@@ -595,11 +493,6 @@
         "answer": "Durante el tour explicaremos la regla del silencio y la soledad absoluta que seguían, lo cual contrasta fuertemente con la riqueza ornamental del edificio."
       }
     ],
-    "related_tours": [
-      "monasterio-san-jeronimo",
-      "basilica-san-juan-de-dios",
-      "ruta-fray-leopoldo"
-    ],
     "duration": "1.5h",
     "price": 100,
     "dates": {
@@ -626,10 +519,8 @@
   },
   {
     "id": "ruta-fray-leopoldo",
-    "slug": "ruta-fray-leopoldo-granada",
     "meta_title": "Ruta Fray Leopoldo Granada | Historia del Santo de los Pobres",
     "meta_description": "Descubre la vida y obra de Fray Leopoldo de Alpandeire a través de los lugares más importantes de su paso por Granada. Una visita cercana y llena de historias reales.",
-    "category": "Religioso",
     "meeting_point": "Jardines del Triunfo",
     "languages": [
       "Español 🇪🇸",
@@ -646,16 +537,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=ruta-fray-leopoldo",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/gqFfVH18vVEU5yvB8",
     "title": "Ruta Fray Leopoldo",
     "subtitle": "La Huella del Personaje Más Querido de Granada",
@@ -685,11 +567,6 @@
         "answer": "Sí, la visita incluye el paso por la cripta en la Iglesia de los Capuchinos, donde podrás ser testigo de la profunda devoción popular que aún hoy despierta."
       }
     ],
-    "related_tours": [
-      "ruta-san-juan-de-dios",
-      "basilica-san-juan-de-dios",
-      "monasterio-cartuja"
-    ],
     "duration": "1.5h",
     "price": 100,
     "dates": {
@@ -716,10 +593,8 @@
   },
   {
     "id": "ruta-gran-capitan",
-    "slug": "ruta-gran-capitan-granada",
     "meta_title": "Ruta Gran Capitán Granada | Gonzalo Fernández de Córdoba",
     "meta_description": "Recorre los escenarios históricos de Gonzalo Fernández de Córdoba en Granada. Una visita con el Monasterio de San Jerónimo como punto central de su legado.",
-    "category": "Histórico",
     "meeting_point": "Monasterio de San Jerónimo",
     "languages": [
       "Español 🇪🇸",
@@ -736,16 +611,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=ruta-gran-capitan",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/wW2KfXctEbBC5v9a8",
     "title": "Ruta del Gran Capitán",
     "subtitle": "El Genio Militar que Forjó el Imperio Español",
@@ -775,11 +641,6 @@
         "answer": "El monasterio fue elegido por él y su esposa como lugar de descanso eterno, y es el eje central para entender su legado en la ciudad."
       }
     ],
-    "related_tours": [
-      "monasterio-san-jeronimo",
-      "capilla-real",
-      "catedral-granada"
-    ],
     "duration": "2h",
     "price": 110,
     "dates": {
@@ -806,10 +667,8 @@
   },
   {
     "id": "ruta-san-juan-de-dios",
-    "slug": "ruta-san-juan-de-dios-granada",
     "meta_title": "Ruta San Juan de Dios Granada | Legado del Santo de los Enfermos",
     "meta_description": "Adéntrate en la Granada de San Juan de Dios. Recorre los lugares clave de su obra y descubre su legado en la atención a los enfermos y las huellas que dejó en la ciudad.",
-    "category": "Religioso",
     "meeting_point": "Frente a la Basílica de San Juan de Dios",
     "languages": [
       "Español 🇪🇸",
@@ -826,16 +685,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=ruta-san-juan-de-dios",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/5xzVJMTkxh33Cs6b9",
     "title": "Ruta de San Juan de Dios",
     "subtitle": "El Santo que Transformó la Atención a los Pobres en Granada",
@@ -865,11 +715,6 @@
         "answer": "Tiene una duración de unas 2 horas a un ritmo pausado, recorriendo los lugares clave de su vida en el centro histórico."
       }
     ],
-    "related_tours": [
-      "basilica-san-juan-de-dios",
-      "ruta-fray-leopoldo",
-      "monasterio-cartuja"
-    ],
     "duration": "2h",
     "price": 110,
     "dates": {
@@ -896,10 +741,8 @@
   },
   {
     "id": "basilica-san-juan-de-dios",
-    "slug": "basilica-san-juan-de-dios-granada",
     "meta_title": "Visita Basílica San Juan de Dios Granada | Joya del Barroco Aúreo",
     "meta_description": "Visita la Basílica de San Juan de Dios en Granada. Una obra maestra del barroco aúreo y lugar de reposo del santo de los pobres. Fe y arte unidos.",
-    "category": "Religioso",
     "meeting_point": "Calle San Juan de Dios (Puerta Principal de la Basílica)",
     "languages": [
       "Español 🇪🇸",
@@ -916,16 +759,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=basilica-san-juan-de-dios",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/5xzVJMTkxh33Cs6b9",
     "title": "Basílica de San Juan de Dios",
     "subtitle": "El Barroco en su Máxima Expresión",
@@ -950,11 +784,6 @@
         "question": "¿Podemos subir al camarín del Santo?",
         "answer": "Dependiendo de la disponibilidad del monumento el día de la visita, intentaremos acceder a este espacio sagrado para ver de cerca las reliquias."
       }
-    ],
-    "related_tours": [
-      "ruta-san-juan-de-dios",
-      "monasterio-cartuja",
-      "ruta-fray-leopoldo"
     ],
     "duration": "1.5h",
     "price": 110,
@@ -982,10 +811,8 @@
   },
   {
     "id": "albaicin-misterios",
-    "slug": "tour-albaicin-misterios-leyendas",
     "meta_title": "Tour Albaicín Granada: Historia, Leyendas y Vistas Alhambra",
     "meta_description": "Callejea por el Albaicín, Patrimonio de la Humanidad. Un paseo entre historia nazarí, leyendas locales y los mejores miradores a la Alhambra.",
-    "category": "Barrios",
     "meeting_point": "Plaza Nueva (junto a la Fuente de los Granados)",
     "languages": [
       "Español 🇪🇸",
@@ -1002,11 +829,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "booking_url": "/contacto?tour=albaicin-misterios",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/WDK9ywYpokLPmXEu8",
     "title": "Misterios y Leyendas del Albaicín",
     "subtitle": "Historia, Enigmas y Miradores Inolvidables",
@@ -1036,11 +859,6 @@
         "answer": "Sí, finalizamos allí para que puedas disfrutar de la puesta de sol sobre la Alhambra, una de las vistas más famosas del mundo."
       }
     ],
-    "related_tours": [
-      "sacromonte",
-      "alhambra-completa",
-      "centro-ciudad"
-    ],
     "duration": "2h",
     "price": 110,
     "dates": {
@@ -1067,10 +885,8 @@
   },
   {
     "id": "sacromonte",
-    "slug": "tour-sacromonte-cuevas-flamenco",
     "meta_title": "Visita Abadía Sacromonte Granada | Cuevas, Flamenco e Historia",
     "meta_description": "Adéntrate en el Sacromonte gitano. Conoce la vida en las cuevas, el origen del flamenco y la histórica Abadía del Monte Sacro. Una experiencia auténtica en Granada.",
-    "category": "Barrios",
     "meeting_point": "Peso de la Harina (inicio Cuesta del Chapiz)",
     "languages": [
       "Español 🇪🇸",
@@ -1087,16 +903,7 @@
       "Si son más de siete visitantes el guía alquilará un audio guía, que se añadirá al precio total de la visita."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "important_info": [
-      "Antes de reservar con nosotros, asegúrese de que tiene la entrada disponible al monumento",
-      "Si tiene algún problema con la compra de entradas al monumento o quiere que se lo gestionemos nosotros, háganoslo saber",
-      "Deben reservar el horario del tour en función de la hora de entrada al monumento que aparece en su ticket"
-    ],
-    "booking_url": "/contacto?tour=sacromonte",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/aqtgNukapZzXTsN16",
     "title": "Abadía del Sacromonte",
     "subtitle": "Cuevas, Flamenco y Espiritualidad",
@@ -1126,11 +933,6 @@
         "answer": "El barrio del Sacromonte tiene pendientes pronunciadas. El tour requiere cierta forma física o el uso del autobús urbano para algunos tramos si se prefiere."
       }
     ],
-    "related_tours": [
-      "albaicin-misterios",
-      "centro-ciudad",
-      "alhambra-completa"
-    ],
     "duration": "2h",
     "price": 110,
     "dates": {
@@ -1157,10 +959,8 @@
   },
   {
     "id": "centro-ciudad",
-    "slug": "tour-centro-historico-granada",
     "meta_title": "Tour Centro Histórico Granada | Catedral, Alcaicería y Madraza",
     "meta_description": "Paseo por el corazón de Granada: Catedral, Capilla Real, Alcaicería, Madraza y Corral del Carbón. Arte, historia y exotismo en dos horas con guía especializado.",
-    "category": "Barrios",
     "meeting_point": "Plaza de las Pasiegas (frente a la Catedral)",
     "languages": [
       "Español 🇪🇸",
@@ -1178,11 +978,7 @@
       "Esta actividad es reembolsable hasta 48 horas antes del inicio del evento."
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 48 horas antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
-    "booking_url": "/contacto?tour=centro-ciudad",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "contact_info": {
-      "whatsapp": "https://wa.me/34662338112"
-    },
     "location_map": "https://maps.app.goo.gl/Bu2vvMa1aPMX2dWm6",
     "title": "Centro Ciudad",
     "subtitle": "El Corazón de Granada: Arte, Historia y Exotismo",
@@ -1211,11 +1007,6 @@
         "question": "¿Es una buena opción para un primer día en Granada?",
         "answer": "Es la opción ideal, ya que ofrece una visión general de la historia de la ciudad, desde sus raíces árabes hasta su esplendor renacentista."
       }
-    ],
-    "related_tours": [
-      "catedral-granada",
-      "capilla-real",
-      "albaicin-misterios"
     ],
     "duration": "2h",
     "price": 110,
