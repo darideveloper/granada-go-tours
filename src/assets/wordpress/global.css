@@ -1,22 +1,43 @@
 .parallax {
-   background-attachment: fixed !important;
+  background-attachment: fixed !important;
 }
- 
+
 .highlighted {
-	color: #ad3c2e !important;
+  color: #ad3c2e !important;
 }
 
 .center {
-	text-align: center;
-	display: inline-block;
-	width: 100%;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .text-white {
-	color: white !important;
+  color: white !important;
 }
 
 /*small buttons (like instagram in hero*/
 .btn-small a {
-	font-size: 0.7rem !important;
+  font-size: 0.7rem !important;
+}
+
+/* images gradient */
+img.effect,
+.effect img,
+.effect iframe {
+  /* The Mask Logic */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
 }

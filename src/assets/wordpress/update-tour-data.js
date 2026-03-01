@@ -12,7 +12,9 @@ if (page === "tours") {
   window.addEventListener("load", updateTourData)
 }
 
-
+/**
+ * Fetches tour data and updates the DOM elements.
+ */
 async function updateTourData() {
   // Update Booking Iframe
   const iframeElem = document.querySelector(".custom-iframe-container iframe")
@@ -30,7 +32,7 @@ async function updateTourData() {
   console.log({ tourData, randomTours })
 
   // Update UI Content
-  // --- Hero ---
+  // hero
   const h1Elem = document.querySelector("#hero h1")
   if (h1Elem && tourData.title) {
     h1Elem.innerHTML = tourData.title

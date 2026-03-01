@@ -1,18 +1,17 @@
 #tours-cards {
-	display: grid;
-    grid-template-columns: repeat(1, 1fr);
-	gap: 40px;
-	margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  margin: 40px auto;
 }
 
 @media screen and (min-width: 550px) {
-    #tours-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  #tours-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 #tours-cards > div {
-	width: 100% !important;
+  width: 100% !important;
 }
-
