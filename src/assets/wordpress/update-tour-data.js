@@ -47,6 +47,8 @@ async function updateTourData() {
   priceElem.innerHTML = "€ " + tourData.price
 
   // ----- Location -----
-  const locationButton = document.querySelector("#location a")
-  locationButton.setAttribute("href", tourData.location_map)
+  const locationButtonElm = document.querySelector("#location a")
+  const meetingPointElem = document.querySelector("#location p")
+  locationButtonElm.setAttribute("href", tourData.location_map)
+  meetingPointElem.innerHTML = tourData.meeting_point
 }
