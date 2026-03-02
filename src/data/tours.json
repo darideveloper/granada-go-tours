@@ -28,14 +28,17 @@
     "introduction": "Te presento la joya de la corona de la ciudad nazarí. La Alhambra no es solo un monumento; es un libro abierto que narra el esplendor de una civilización. En este recorrido completo te sumergirás por la Alcazaba, el Generalife y los Palacios Nazaríes para entender el verdadero significado de este complejo monumental. Como historiador, mi objetivo es que comprendas el porqué de cada yesería y cada poema inscrito en sus paredes, alejándonos de la visita turística convencional para vivir una experiencia de inmersión cultural.",
     "discoveries": [
       {
+        "id": "palacios-nazaries",
         "title": "Palacios Nazaríes",
-        "description": "El cenit del arte islámico: arquitectura, poesía y poder político entrelazados en el Palacio de Comares y el Patio de los Leones."
+        "description": "El cenit del arte islámico: arquitectura, poesía y poder político entrelados en el Palacio de Comares y el Patio de los Leones."
       },
       {
+        "id": "la-alcazaba",
         "title": "La Alcazaba",
         "description": "La fortaleza militar que protegió a la dinastía nazarí y ofrece las mejores vistas del Albaicín y la ciudad."
       },
       {
+        "id": "generalife",
         "title": "Generalife",
         "description": "Jardines y huertas reales: el concepto coránico del paraíso y el lugar de descanso de los reyes."
       }
@@ -103,14 +106,17 @@
     "introduction": "¿No conseguiste entradas para la Alhambra? No te preocupes. El recinto monumental guarda secretos que van mucho más allá de los Palacios Nazaríes. El imponente Palacio de Carlos V, el mirador del Aljibe con sus vistas sobre Granada, los centenarios bosques de la Alhambra o el romántico Carmen de los Mártires son de libre acceso, y nuestro guía te los mostrará con la misma profundidad histórica. Una visita sorprendente que muchos descubren como su favorita.",
     "discoveries": [
       {
+        "id": "palacio-de-carlos-v",
         "title": "Palacio de Carlos V",
         "description": "El único palacio renacentista circular del mundo, incrustado en el corazón de la fortaleza musulmana."
       },
       {
+        "id": "mirador-del-aljibe",
         "title": "Mirador del Aljibe",
         "description": "Vistas privilegiadas sobre Granada y el Albaicín desde los jardines del recinto monumental."
       },
       {
+        "id": "bosques-y-carmen-de-los-martires",
         "title": "Bosques y Carmen de los Mártires",
         "description": "El pulmón romántico de la Alhambra: jardines decimonónicos y naturaleza histórica."
       }
@@ -178,14 +184,17 @@
     "introduction": "Nos adentramos en la residencia de los emires nazaríes. Visitar el Palacio de Comares, centro político de la dinastía, o el Patio de los Leones, culmen de la exquisitez del arte nazarí, es una de las experiencias que siempre recordarás de Granada. En esta visita centrada exclusivamente en los Palacios, tendremos tiempo para descifrar cada detalle: la caligrafía árabe en los azulejos, la geometría de las yeserías y la perfecta orientación de cada estancia.",
     "discoveries": [
       {
+        "id": "palacio-de-comares",
         "title": "Palacio de Comares",
         "description": "El centro del poder político nazarí: el Salón del Trono y su impresionante techumbre de madera de cedro."
       },
       {
+        "id": "patio-de-los-leones",
         "title": "Patio de los Leones",
         "description": "El culmen de la arquitectura nazarí: 124 columnas y la famosa fuente que da nombre al patio más célebre de España."
       },
       {
+        "id": "jardines-del-partal",
         "title": "Jardines del Partal",
         "description": "El reflejo de la Alhambra en el agua y los jardines que conectan los palacios con el Generalife."
       }
@@ -253,14 +262,17 @@
     "introduction": "Descubre la obra magna del Renacimiento español. Déjate sorprender por su magnífica fachada diseñada por Alonso Cano, para luego envolverte de los mejores ejemplos del barroco andaluz in su interior. Analizaremos no solo su arquitectura imponente, sino el mensaje político y religioso que transformó la ciudad tras la conquista de 1492 y convirtió Granada en símbolo del nuevo poder cristiano.",
     "discoveries": [
       {
+        "id": "fachada-de-alonso-cano",
         "title": "Fachada de Alonso Cano",
         "description": "Una de las obras más originales del barroco español, diseñada por el genio granadino que revolucionó el arte de su tiempo."
       },
       {
+        "id": "las-naves-interiores",
         "title": "Las Naves Interiores",
         "description": "Grandiosidad y luz: una de las naves más altas del mundo, que abruma con su escala y su programa iconográfico."
       },
       {
+        "id": "capilla-mayor",
         "title": "Capilla Mayor",
         "description": "El corazón litúrgico de la catedral y su impresionante conjunto de esculturas y pinturas del Siglo de Oro."
       }
@@ -328,14 +340,17 @@
     "introduction": "Si visitas Granada, la Capilla Real es un lugar de parada obligatoria. Lugar de descanso de los Reyes Católicos, los monarcas más importantes de España, en su interior descubrirás y entenderás el rico patrimonio que alberga esta maravilla del gótico isabelino. Exploraremos el panteón donde reposan Isabel y Fernando, analizaremos su impresionante colección personal de pintura flamenca y comprenderemos el mensaje político y dinástico que hay detrás de cada detalle de este espacio sagrado.",
     "discoveries": [
       {
+        "id": "panteon-real",
         "title": "Panteón Real",
         "description": "Los sepulcros de mármol de Isabel, Fernando, Juana y Felipe, obras maestras de la escultura funeraria renacentista."
       },
       {
+        "id": "coleccion-de-pintura-flamenca",
         "title": "Colección de Pintura Flamenca",
         "description": "La colección personal de Isabel la Católica: uno de los conjuntos de pintura flamenca más importantes de España."
       },
       {
+        "id": "reja-de-bartolome-de-jaen",
         "title": "Reja de Bartolomé de Jaén",
         "description": "Una de las rejas más bellas del Renacimiento español, que separa la nave del presbiterio con virtuosismo artesanal."
       }
@@ -403,14 +418,17 @@
     "introduction": "Lugar de reposo del Gran Capitán, el cerebro militar de los Reyes Católicos. El Monasterio de San Jerónimo es una obra cumbre del arte granadino donde la gloria militar y la espiritualidad se dan la mano. Con esta visita entenderás la importancia de los monasterios y de las órdenes religiosas para convertir Granada en la nueva Jerusalén. Un espacio que habla de poder, fe y del hombre que cambió el arte de la guerra para siempre.",
     "discoveries": [
       {
+        "id": "mausoleo-del-gran-capitan",
         "title": "Mausoleo del Gran Capitán",
         "description": "El sepulcro de Gonzalo Fernández de Córdoba, el militar más brillante de su época, honrado por los Reyes Católicos."
       },
       {
+        "id": "iglesia-del-monasterio",
         "title": "Iglesia del Monasterio",
         "description": "Una de las primeras grandes iglesias renacentistas de Granada, con una nave imponente y un presbiterio monumental."
       },
       {
+        "id": "claustros",
         "title": "Claustros",
         "description": "Los dos claustros del monasterio: espacios de silencio y contemplación que narran la vida de la orden jerónima."
       }
@@ -470,7 +488,7 @@
     ],
     "cancelation": "Política de cancelación: Puedes cancelar sin cargos hasta 72 horas(3 días) antes de la actividad. Si lo haces con menos antelación, llegas tarde o no te presentas, no habrá reembolso",
     "disclaimer": "Nota: Las entradas a los monumentos no están incluidas en el precio del servicio de guía y deben ser gestionadas por el cliente.",
-    "location_map": "https://www.google.com/maps/place/37%C2%B011'31.9%22N+3%C2%B035'59.8%22W/@37.192188,-3.599949,17z/data=!3m1!4b1!4m4!3m3!8m2!3d37.192188!4d-3.599949!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
+    "location_map": "https://www.google.com/maps/place/37%C2%B011'31.9%22N+3%C2%B035'55.1%22W/@37.192188,-3.599949,17z/data=!3m1!4b1!4m4!3m3!8m2!3d37.192188!4d-3.599949!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "google_maps_iframe": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3178.3382579325666!2d-3.5999444!3d37.1921944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDExJzMxLjkiTiAzwrAzNSc1OS44Ilc!5e0!3m2!1ses-419!2smx!4v1772457015144!5m2!1ses-419!2smx",
     "title": "Monasterio de La Cartuja",
     "subtitle": "La Orden del Silencio y el Barroco Más Puro",
@@ -478,14 +496,17 @@
     "introduction": "La orden del silencio y la soledad. Descubre, tras los muros de este monasterio cartujo, la historia y forma de vida de esta peculiar orden religiosa. Dentro te espera el sagrario, uno de los mejores ejemplos del barroco español, y la sacristía, considerada como la más bonita del mundo. En esta visita desgranaremos la teología hecha piedra, la vida monástica y la impresionante técnica artística que define el Siglo de Oro granadino.",
     "discoveries": [
       {
+        "id": "la-sacristia",
         "title": "La Sacristía",
         "description": "Considerada la sacristía más bella del mundo: mármoles, nácar y estucos en una explosión decorativa sin igual."
       },
       {
+        "id": "el-sagrario",
         "title": "El Sagrario",
         "description": "Uno de los mejores ejemplos del barroco español, donde la decoración alcanza su máxima intensidad espiritual."
       },
       {
+        "id": "la-vida-cartuja",
         "title": "La Vida Cartuja",
         "description": "La peculiar regla de vida de los monjes cartujos: silencio, soledad y contemplación como camino hacia Dios."
       }
@@ -553,14 +574,17 @@
     "introduction": "Descubre la vida y obra de Fray Leopoldo de Alpandeire a través de los lugares más importantes de su paso por Granada. Este humilde fraile capuchino, conocido por su bondad y su labor de acogida a los más necesitados, dejó una huella imborrable en la ciudad. Recorreremos los escenarios de su vida cotidiana, conoceremos las historias que el pueblo granadino le atribuye y visitaremos los espacios donde todavía hoy se mantiene viva su memoria. Una ruta emotiva que conecta con la Granada más humana y espiritual.",
     "discoveries": [
       {
+        "id": "convento-de-capuchinos",
         "title": "Convento de Capuchinos",
         "description": "El lugar donde Fray Leopoldo vivió décadas de su vida y donde aún se guarda su memoria y devoción popular."
       },
       {
+        "id": "recorrido-de-las-limosnas",
         "title": "Recorrido de las Limosnas",
         "description": "Las calles de Granada que recorrió durante años pidiendo para los pobres: una geografía de la caridad."
       },
       {
+        "id": "devocion-popular",
         "title": "Devoción Popular",
         "description": "La historia de su beatificación y el fervor que sigue despertando entre los granadinos generación tras generación."
       }
@@ -628,14 +652,17 @@
     "introduction": "Conoce la historia de Gonzalo Fernández de Córdoba, el Gran Capitán, a través de un recorrido por los principales escenarios de Granada vinculados a su figura. Considerado el padre de la infantería moderna, su genio militar cambió el arte de la guerra para siempre. La visita tiene como punto central el Monasterio de San Jerónimo, donde descubrirás su legado, su sepulcro y su importancia en la España de los Reyes Católicos. Una ruta para entender cómo un hombre de Granada cambió la historia del mundo.",
     "discoveries": [
       {
+        "id": "monasterio-san-jeronimo",
         "title": "Monasterio de San Jerónimo",
         "description": "Su mausoleo, elegido como honor al mejor general de su tiempo por los propios Reyes Católicos."
       },
       {
+        "id": "el-legado-militar",
         "title": "El Legado Militar",
         "description": "Cómo el Gran Capitán revolucionó las tácticas militares y sentó las bases del ejército moderno europeo."
       },
       {
+        "id": "granada-y-la-nueva-nobleza",
         "title": "Granada y la Nueva Nobleza",
         "description": "El papel de la nobleza castellana en la transformación de Granada tras la conquista de 1492."
       }
@@ -703,14 +730,17 @@
     "introduction": "Adéntrate en la Granada de San Juan de Dios, paseando por los lugares clave de su obra, incluida la Basílica de San Juan de Dios y el antiguo hospital. Este portugués llegado a Granada sin nada se convirtió en el fundador de la Orden Hospitalaria y en el patrón universal de los enfermos. Una visita guiada cercana que explica su legado en la atención a los más necesitados y las huellas físicas y espirituales que dejó en la ciudad.",
     "discoveries": [
       {
+        "id": "basilica-de-san-juan-de-dios",
         "title": "Basílica de San Juan de Dios",
         "description": "Obra maestra del barroco dorado, construida para honrar al santo de los pobres y custodiar sus reliquias."
       },
       {
+        "id": "el-antiguo-hospital",
         "title": "El Antiguo Hospital",
         "description": "El primer gran hospital moderno de Granada, fundado por el propio Juan de Dios con sus limosnas."
       },
       {
+        "id": "la-orden-hospitalaria",
         "title": "La Orden Hospitalaria",
         "description": "Cómo una pequeña iniciativa personal se convirtió en una de las órdenes religiosas más importantes del mundo."
       }
@@ -778,10 +808,12 @@
     "introduction": "La Basílica de San Juan de Dios no deja indiferente a nadie; es, sencillamente, deslumbrante. Conocerás una de las figuras más queridas de Granada, San Juan de Dios, el santo de los pobres y los enfermos. Concebida como un relicario gigante para albergar sus restos, en su interior te espera una deliciosa muestra del barroco más puro: retablos dorados, frescos y espejos que crean una atmósfera celestial. Un viaje donde la vida y obra del santo, la espiritualidad de la Orden Hospitalaria y la belleza de su arquitectura te dejarán una huella imborrable.",
     "discoveries": [
       {
+        "id": "barroco-aureo",
         "title": "Barroco Aúreo",
         "description": "El horror vacui llevado al extremo: retablos dorados, frescos y espejos que crean una atmósfera celestial única."
       },
       {
+        "id": "camarin-del-santo",
         "title": "Camarín del Santo",
         "description": "La estancia más sagrada y lujosa del templo, donde se veneran las reliquias de San Juan de Dios."
       }
@@ -849,14 +881,17 @@
     "introduction": "Descubre el mítico barrio granadino, declarado Patrimonio de la Humanidad, con su historia y significación en la vida de la ciudad. Este antiguo arrabal musulmán conserva su trazado medieval intacto: aljibes, cármenes y restos de murallas que nos hablan de la vida en la Granada nazarí. En el viaje te acompañará un rico patrimonio junto con los misterios y leyendas más enigmáticos de la ciudad, finalizando en el mítico mirador de San Nicolás, desde donde contemplarás las vistas más bellas de la Alhambra.",
     "discoveries": [
       {
+        "id": "patrimonio-andalusi",
         "title": "Patrimonio Andalusí",
         "description": "La evolución urbana: del esplendor zirí y nazarí a la transformación cristiana, conservada en cada callejuela."
       },
       {
+        "id": "misterios-y-leyendas",
         "title": "Misterios y Leyendas",
         "description": "Relatos de amores prohibidos y sucesos inexplicables que forman parte del imaginario popular granadino."
       },
       {
+        "id": "mirador-de-san-nicolas",
         "title": "Mirador de San Nicolás",
         "description": "La vista panorámica más famosa del mundo: la Alhambra y Sierra Nevada frente a ti al atardecer."
       }
@@ -924,14 +959,17 @@
     "introduction": "En este viaje al pasado al barrio con más duende de Granada, descubrirás el origen gitano del Sacromonte, las cuevas donde todavía viven los locales y el flamenco como la forma de expresión artística más profunda. No te pierdas la magnífica Abadía del Sacromonte y descubre su historia entre reliquias, leyendas y espiritualidad, donde te aguardan unas vistas poco conocidas de la Alhambra. Un tour antropológico, histórico y paisajístico en uno de los rincones más singulares de España.",
     "discoveries": [
       {
+        "id": "viviendas-trogloditas",
         "title": "Viviendas Trogloditas",
         "description": "Arquitectura bioclimática vernácula: la vida en el interior de la montaña y la comunidad gitana que habita el barrio."
       },
       {
+        "id": "la-abadia-del-sacromonte",
         "title": "La Abadía del Sacromonte",
         "description": "Cuna del cristianismo en Granada, los Libros Plúmbeos y una panorámica desconocida de la Alhambra."
       },
       {
+        "id": "cultura-gitana-y-flamenco",
         "title": "Cultura Gitana y Flamenco",
         "description": "El flamenco como expresión de dolor y alegría: historia de la Zambra granadina y una identidad transformada en arte."
       }
@@ -1000,14 +1038,17 @@
     "introduction": "Sumérgete en el corazón de Granada con un paseo que te llevará por joyas como la imponente Catedral renacentista, la solemne Capilla Real y el vibrante bullicio de la Plaza Bib-Rambla. Descubrirás el Zoco o Alcaicería, auténtico mercado de la seda nazarí, y pasearás junto a la elegante fachada del Palacio de la Chancillería en Plaza Nueva. Conocerás también la histórica Madraza, primera universidad andalusí, y te envolverá la leyenda del Corral del Carbón. Un viaje que une arte, historia y exotismo de la mano de nuestro guía especializado.",
     "discoveries": [
       {
+        "id": "catedral-y-capilla-real",
         "title": "Catedral y Capilla Real",
         "description": "El poder cristiano hecho piedra: renacimiento español y gótico isabelino frente a frente en el centro de la ciudad."
       },
       {
+        "id": "alcaiceria-y-plaza-bib-rambla",
         "title": "Alcaicería y Plaza Bib-Rambla",
         "description": "El bullicio del zoco nazarí y la plaza central de la vida granadina, desde la Edad Media hasta hoy."
       },
       {
+        "id": "madraza-y-corral-del-carbon",
         "title": "Madraza y Corral del Carbón",
         "description": "La primera universidad andalusí y el único caravansar nazarí conservado en España."
       }
