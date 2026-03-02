@@ -15,6 +15,7 @@ interface BookingState {
     tourId: string | null;
     guests: number;
     specialRequests: string;
+    privacyAccepted: boolean;
   };
   availability: Availability;
   setSelectedDate: (date: Date | undefined) => void;
@@ -75,6 +76,7 @@ export const useBookingStore = create<BookingState>((set) => ({
     tourId: null,
     guests: 1,
     specialRequests: '',
+    privacyAccepted: false,
   },
   availability: { limited: [], booked: [] },
   setSelectedDate: (date) => set({ selectedDate: date }),
@@ -101,6 +103,7 @@ export const useBookingStore = create<BookingState>((set) => ({
       tourId: null,
       guests: 1,
       specialRequests: '',
+      privacyAccepted: false,
     },
     availability: { limited: [], booked: [] },
   }),

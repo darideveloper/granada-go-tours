@@ -6,20 +6,10 @@ TBD - created by archiving change add-booking-form-fields. Update Purpose after 
 ### Requirement: Form Field Sync
 The booking form MUST synchronize all input values with the `useBookingStore`.
 
-#### Scenario: Update Full Name
-- **Given** the user is on the booking page
-- **When** the user types "Juan Pérez" in the Full Name field
-- **Then** the `formData.fullName` in the Zustand store MUST be updated to "Juan Pérez"
-
-#### Scenario: Update Email
-- **Given** the user is on the booking page
-- **When** the user types "juan@example.com" in the Email field
-- **Then** the `formData.email` in the Zustand store MUST be updated to "juan@example.com"
-
-#### Scenario: Select Tour
-- **Given** the user is on the booking page
-- **When** the user selects "Alhambra Completa" from the Tour dropdown
-- **Then** the `formData.tourId` in the Zustand store MUST be updated to "alhambra-completa"
+#### Scenario: Update Privacy Acceptance (NEW)
+- **Given** the user is on Step 2 of the booking form
+- **When** the user checks the "Acepto la política de privacidad" checkbox
+- **Then** the `formData.privacyAccepted` in the Zustand store MUST be set to `true`
 
 ### Requirement: Visual Branding
 All form elements MUST adhere to the project's brand color palette.
@@ -74,4 +64,29 @@ The `BookingForm` SHALL NOT display step indicators.
 #### Scenario: No Step Indicator in Step 2
 - **Given** the user is on the `BookingForm`
 - **Then** the text "Paso 2 de 2" MUST NOT be visible.
+
+### Requirement: Form Submission Validation
+The booking form MUST NOT allow submission without explicit user consent to the privacy policy.
+
+#### Scenario: Submit Without Consent
+- **Given** the user is on Step 2 of the booking form
+- **And** the "Acepto la política de privacidad" checkbox is NOT checked
+- **When** the user clicks "Solicitar Reserva"
+- **Then** the browser SHOULD prevent submission via HTML5 validation
+- **And** the application MUST NOT trigger the Stripe payment API call.
+
+#### Scenario: Submit With Consent
+- **Given** the user is on Step 2 of the booking form
+- **And** the "Acepto la política de privacidad" checkbox IS checked
+- **And** all other required fields are valid
+- **When** the user clicks "Solicitar Reserva"
+- **Then** the application MUST trigger the Stripe payment API call.
+
+### Requirement: Privacy Policy Access
+The booking form MUST provide a clear link to the privacy policy.
+
+#### Scenario: External Link to Privacy Policy
+- **Given** the user is on Step 2 of the booking form
+- **When** the user clicks the "política de privacidad" link
+- **Then** the browser SHOULD open `https://granadago.com/privacidad/` in a new tab.
 

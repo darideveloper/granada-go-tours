@@ -15,10 +15,12 @@ export function BookingForm() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target
-    let processedValue: string | number = value
+    const { name, value, type } = e.target as HTMLInputElement
+    let processedValue: string | number | boolean = value
     
-    if (name === "guests") {
+    if (type === "checkbox") {
+      processedValue = (e.target as HTMLInputElement).checked
+    } else if (name === "guests") {
       const numValue = parseInt(value, 10)
       processedValue = isNaN(numValue) ? 0 : Math.min(numValue, 30)
     }
@@ -28,6 +30,12 @@ export function BookingForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+
+    if (!formData.privacyAccepted) {
+      alert("Debes aceptar la política de privacidad para continuar.")
+      return
+    }
+
     setIsLoading(true)
 
     try {
@@ -158,6 +166,24 @@ export function BookingForm() {
                 className="text-sm min-h-[80px]"
                 rows={3}
               />
+            </div>
+
+            <div className="flex items-start space-x-2 pt-2">
+              <input
+                type="checkbox"
+                id="privacyAccepted"
+                name="privacyAccepted"
+                checked={formData.privacyAccepted}
+                onChange={handleChange}
+                className="h-4 w-4 rounded border-gray-300 text-brand-red focus:ring-brand-red cursor-pointer"
+                required
+              />
+              <Label 
+                htmlFor="privacyAccepted" 
+                className="text-xs peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer text-brand-charcoal/80"
+              >
+                He leído y acepto la <a href="https://granadago.com/privacidad/" target="_blank" rel="noopener noreferrer" className="text-brand-red underline hover:text-brand-red/80">política de privacidad</a>.
+              </Label>
             </div>
 
             <div className="grid grid-cols-2 gap-4 pt-2">
