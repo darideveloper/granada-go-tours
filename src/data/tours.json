@@ -1086,5 +1086,53 @@
       ],
       "booked": []
     }
+  },
+  {
+    "id": "test-tour",
+    "meta_title": "Test Tour Meta Title",
+    "meta_description": "Test Tour Meta Description for SEO purposes.",
+    "meeting_point": "Test Meeting Point",
+    "languages": [
+      "Español 🇪🇸",
+      "Inglés 🇬🇧"
+    ],
+    "included": [
+      "Included Item 1",
+      "Included Item 2"
+    ],
+    "not_included": [
+      "Not Included Item 1",
+      "Not Included Item 2"
+    ],
+    "cancelation": "Policy de cancelación: Puedes cancelar sin cargos hasta 72 horas antes.",
+    "disclaimer": "Nota: Test disclaimer.",
+    "location_map": "https://www.google.com/maps",
+    "google_maps_iframe": "https://www.google.com/maps/embed",
+    "title": "Test Tour",
+    "subtitle": "Subtitle for Test Tour",
+    "focus": "Focus of the test tour.",
+    "introduction": "Introduction to the test tour.",
+    "discoveries": [
+      {
+        "id": "discovery-1",
+        "title": "Discovery Title 1",
+        "description": "Description for discovery 1."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Test Question?",
+        "answer": "Test Answer."
+      }
+    ],
+    "duration": "1h",
+    "price": 1,
+    "dates": {
+      "limited": [
+        "2026-03-04",
+        "2026-03-05"
+      ],
+      "booked": []
+    }
   }
 ]
