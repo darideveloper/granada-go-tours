@@ -30,7 +30,7 @@
       {
         "id": "palacios-nazaries",
         "title": "Palacios Nazaríes",
-        "description": "El cenit del arte islámico: arquitectura, poesía y poder político entrelados en el Palacio de Comares y el Patio de los Leones."
+        "description": "El cenit del arte islámico: arquitectura, poesía y poder político entrelados en el Palacio de Comares y el Palacio de los leones."
       },
       {
         "id": "la-alcazaba",
@@ -157,8 +157,8 @@
   },
   {
     "id": "palacios-nazaries",
-    "meta_title": "Visita Palacios Nazaríes Granada | Comares y Patio de los Leones",
-    "meta_description": "Adéntrate en la residencia de los emires nazaríes. El Palacio de Comares y el Patio de los Leones explicados en profundidad por un guía historiador.",
+    "meta_title": "Visita Palacios Nazaríes Granada | Comares y Palacio de los leones",
+    "meta_description": "Adéntrate en la residencia de los emires nazaríes. El Palacio de Comares y el Palacio de los leones explicados en profundidad por un guía historiador.",
     "meeting_point": "Puerta del Vino (dentro del complejo monumental de la Alhambra)",
     "languages": [
       "Español 🇪🇸",
@@ -181,7 +181,7 @@
     "title": "Palacios Nazaríes",
     "subtitle": "El corazón artístico de la Alhambra",
     "focus": "La residencia de los emires nazaríes: donde la política, el arte y la vida cotidiana se fusionaban en la cumbre de la civilización islámica.",
-    "introduction": "Nos adentramos en la residencia de los emires nazaríes. Visitar el Palacio de Comares, centro político de la dinastía, o el Patio de los Leones, culmen de la exquisitez del arte nazarí, es una de las experiencias que siempre recordarás de Granada. En esta visita centrada exclusivamente en los Palacios, tendremos tiempo para descifrar cada detalle: la caligrafía árabe en los azulejos, la geometría de las yeserías y la perfecta orientación de cada estancia.",
+    "introduction": "Nos adentramos en la residencia de los emires nazaríes. Visitar el Palacio de Comares, centro político de la dinastía, o el Palacio de los leones, culmen de la exquisitez del arte nazarí, es una de las experiencias que siempre recordarás de Granada. En esta visita centrada exclusivamente en los Palacios, tendremos tiempo para descifrar cada detalle: la caligrafía árabe en los azulejos, la geometría de las yeserías y la perfecta orientación de cada estancia.",
     "discoveries": [
       {
         "id": "palacio-de-comares",
@@ -190,13 +190,13 @@
       },
       {
         "id": "patio-de-los-leones",
-        "title": "Patio de los Leones",
+        "title": "Palacio de los leones",
         "description": "El culmen de la arquitectura nazarí: 124 columnas y la famosa fuente que da nombre al patio más célebre de España."
       },
       {
-        "id": "jardines-del-partal",
-        "title": "Jardines del Partal",
-        "description": "El reflejo de la Alhambra en el agua y los jardines que conectan los palacios con el Generalife."
+        "id": "palacio-del-mexuar",
+        "title": "Palacio del Mexuar",
+        "description": "El Palacio del Mexuar conserva el antiguo corazón administrativo y ceremonial de la corte nazarí: salas íntimas, arquerías y una ornamentación que condensan siglos de historia."
       }
     ],
     "faqs": [
