@@ -868,7 +868,7 @@
     "meta_title": "Tour Albaicín Granada: Historia, Leyendas y Vistas Alhambra",
     "meta_description": "Callejea por el Albaicín, Patrimonio de la Humanidad. Un paseo entre historia nazarí, leyendas locales y los mejores miradores a la Alhambra.",
     "historian_note": "Como historiador, mi objetivo es transportarte al pasado en este particular viaje para vivir y sobre todo, comprender la historia.",
-    "meeting_point": "Plaza Nueva (junto a la Fuente de los Granados)",
+    "meeting_point": "Plaza NUeva frente a la portada de la Real Chancilleria",
     "languages": [
       "Español 🇪🇸",
       "Inglés 🇬🇧"
@@ -945,9 +945,9 @@
   {
     "id": "sacromonte",
     "meta_title": "Visita Abadía Sacromonte Granada | Cuevas, Flamenco e Historia",
-    "meta_description": "Adéntrate en el Sacromonte gitano. Conoce la vida en las cuevas, el origen del flamenco y la histórica Abadía del Monte Sacro. Una experiencia auténtica en Granada.",
+    "meta_description": "Adéntrate en the Sacromonte gitano. Conoce la vida en las cuevas, el origen del flamenco y la histórica Abadía del Monte Sacro. Una experiencia auténtica en Granada.",
     "historian_note": "Como historiador, mi objetivo es transportarte al pasado en este particular viaje para vivir y sobre todo, comprender la historia.",
-    "meeting_point": "Peso de la Harina (inicio Cuesta del Chapiz)",
+    "meeting_point": "Plaza Nueva, frente a la fachada de la Real Chancilleria",
     "languages": [
       "Español 🇪🇸",
       "Inglés 🇬🇧"
@@ -973,7 +973,7 @@
     "discoveries": [
       {
         "id": "viviendas-trogloditas",
-        "title": "Viviendas Trogloditas",
+        "title": "Casas Cuevas",
         "description": "Arquitectura bioclimática vernácula: la vida en el interior de la montaña y la comunidad gitana que habita el barrio."
       },
       {
@@ -1062,9 +1062,9 @@
         "description": "El bullicio del zoco nazarí y la plaza central de la vida granadina, desde la Edad Media hasta hoy."
       },
       {
-        "id": "madraza-y-corral-del-carbon",
-        "title": "Madraza y Corral del Carbón",
-        "description": "La primera universidad andalusí y el único caravansar nazarí conservado en España."
+        "id": "plaza-nueva",
+        "title": "Plaza Nueva",
+        "description": "El corazón neurálgico de Granada, donde la elegante fachada de la Real Chancillería preside el paso hacia el Albaicín y la Alhambra."
       }
     ],
     "faqs": [
