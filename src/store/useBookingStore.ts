@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import toursData from "../data/tours.json";
+import { generateAvailability } from "../lib/availability";
 
 interface Availability {
   limited: Date[];
@@ -49,20 +50,17 @@ const injectVirtualLimitedDates = (limited: Date[], booked: Date[]): Date[] => {
 
 const getInitialAvailability = (tourId: string | null): Availability => {
   const tour = toursData.find(t => t.id === tourId);
-  if (!tour || !tour.dates) {
-    return { limited: [], booked: [] };
-  }
   
   const parseDate = (dateStr: string) => {
     const [year, month, day] = dateStr.split('-').map(Number);
     return new Date(year, month - 1, day);
   };
 
-  const limited = (tour.dates.limited || []).map(parseDate);
-  const booked = (tour.dates.booked || []).map(parseDate);
+  const generatedLimited = generateAvailability(tourId);
+  const booked = tour && tour.dates && tour.dates.booked ? tour.dates.booked.map(parseDate) : [];
 
   return {
-    limited: injectVirtualLimitedDates(limited, booked),
+    limited: injectVirtualLimitedDates(generatedLimited, booked),
     booked: booked,
   };
 };
@@ -78,7 +76,7 @@ export const useBookingStore = create<BookingState>((set) => ({
     specialRequests: '',
     privacyAccepted: false,
   },
-  availability: { limited: [], booked: [] },
+  availability: getInitialAvailability(null),
   setSelectedDate: (date) => set({ selectedDate: date }),
   setStep: (step) => set({ currentStep: step }),
   nextStep: () => set((state) => ({ currentStep: state.currentStep + 1 })),
@@ -105,6 +103,6 @@ export const useBookingStore = create<BookingState>((set) => ({
       specialRequests: '',
       privacyAccepted: false,
     },
-    availability: { limited: [], booked: [] },
+    availability: getInitialAvailability(null),
   }),
 }));

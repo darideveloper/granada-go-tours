@@ -1,0 +1,5 @@
+- [x] Create `src/lib/availability.ts` with logic for deterministic 1-year horizon limited date generation (weekends and random weekdays). <!-- id: 0 -->
+- [x] Refactor `src/store/useBookingStore.ts` to use `generateAvailability` utility for the 1-year horizon, combining it with the existing `injectVirtualLimitedDates` logic. <!-- id: 1 -->
+- [x] Enforce a 60-day visual horizon in `src/components/organisms/BookingCalendar.tsx`, overriding statuses beyond that window. <!-- id: 4 -->
+- [x] Update `src/data/tours.json` to remove static `limited` dates. <!-- id: 2 -->
+- [x] Verify functionality via existing UI (weekends limited, deterministic weekdays limited, next 12 days urgency working). <!-- id: 3 -->

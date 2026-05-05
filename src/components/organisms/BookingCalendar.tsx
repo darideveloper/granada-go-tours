@@ -29,13 +29,21 @@ export function BookingCalendar() {
     return d;
   }, []);
 
+  const horizonDate = useMemo(() => {
+    const d = new Date(today);
+    d.setDate(d.getDate() + 60);
+    return d;
+  }, [today]);
+
   const modifiers = useMemo(() => ({
-    isBooked: (d: Date) => d > today && availability.booked.some((date: Date) => date.toDateString() === d.toDateString()),
-    isLimited: (d: Date) => d > today && availability.limited.some((date: Date) => date.toDateString() === d.toDateString()),
-    isAvailable: (d: Date) => d > today && 
-      !availability.booked.some((date: Date) => date.toDateString() === d.toDateString()) &&
-      !availability.limited.some((date: Date) => date.toDateString() === d.toDateString()),
-  }), [availability, today]);
+    isBooked: (d: Date) => d > today && d <= horizonDate && availability.booked.some((date: Date) => date.toDateString() === d.toDateString()),
+    isLimited: (d: Date) => d > today && d <= horizonDate && availability.limited.some((date: Date) => date.toDateString() === d.toDateString()),
+    isAvailable: (d: Date) => d > today && (
+      d > horizonDate || 
+      (!availability.booked.some((date: Date) => date.toDateString() === d.toDateString()) &&
+       !availability.limited.some((date: Date) => date.toDateString() === d.toDateString()))
+    ),
+  }), [availability, today, horizonDate]);
 
   const modifiersClassNames = useMemo(() => {
     return {
@@ -47,6 +55,7 @@ export function BookingCalendar() {
 
   const getStatus = (d: Date | undefined): StatusKey => {
     if (!d || d <= today) return 'standard';
+    if (d > horizonDate) return 'available';
     const dateStr = d.toDateString();
     if (availability.booked.some((date: Date) => date.toDateString() === dateStr)) return 'booked';
     if (availability.limited.some((date: Date) => date.toDateString() === dateStr)) return 'limited';
@@ -101,7 +110,7 @@ export function BookingCalendar() {
                 ...modifiersClassNames,
               }}
               modifiers={modifiers}
-              disabled={[(d: Date) => d <= today, ...availability.booked]}
+              disabled={[(d: Date) => d <= today, ...(availability.booked.filter((d: Date) => d <= horizonDate))]}
             />
           </div>
 
